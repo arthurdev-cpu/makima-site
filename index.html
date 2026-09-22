@@ -4,66 +4,125 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Makima Bot</title>
+    <meta
+        name="description"
+        content="Makima Bot — IA, Anime, Blox Fruits e ferramentas para Discord."
+    >
+
+    <meta name="theme-color" content="#070707">
+
+    <title>Makima Bot — Discord</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header class="navbar">
-        <div class="logo">🩸 MAKIMA</div>
+    <!-- ============================= -->
+    <!-- NAVBAR -->
+    <!-- ============================= -->
 
-        <nav>
+    <header class="navbar">
+
+        <a href="#inicio" class="logo">
+            🩸 MAKIMA
+        </a>
+
+        <nav class="nav-links">
             <a href="#inicio">Início</a>
             <a href="#recursos">Recursos</a>
             <a href="#ia">IA</a>
             <a href="#blox">Blox Fruits</a>
+            <a href="#contato">Contato</a>
         </nav>
+
+        <a
+            class="nav-button"
+            href="https://discord.com/oauth2/authorize?client_id=1551296598133309592&scope=bot%20applications.commands"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Adicionar
+        </a>
+
     </header>
+
 
     <main>
 
+        <!-- ============================= -->
+        <!-- HERO -->
+        <!-- ============================= -->
+
         <section id="inicio" class="hero">
 
-            <div class="hero-text">
+            <div class="hero-content">
 
-                <p class="tag">DISCORD BOT</p>
+                <div class="status">
+                    <span class="status-dot"></span>
+                    BOT PARA DISCORD
+                </div>
 
                 <h1>
-                    Makima
+                    MAKIMA
                 </h1>
 
                 <h2>
-                    Seu servidor nunca mais será o mesmo.
+                    Poder. Inteligência. Controle.
                 </h2>
 
-                <p>
-                    Um bot com sistemas de IA, Anime, Blox Fruits,
-                    ferramentas e muito mais.
+                <p class="hero-description">
+                    Um bot completo para Discord com inteligência artificial,
+                    anime, Blox Fruits, sistemas e muito mais.
                 </p>
 
-                <div class="buttons">
+                <div class="hero-buttons">
+
                     <a
-                        class="btn primary"
-                        href="#"
+                        class="button primary"
+                        href="https://discord.com/oauth2/authorize?client_id=1551296598133309592&scope=bot%20applications.commands"
+                        target="_blank"
+                        rel="noopener noreferrer"
                     >
-                        Adicionar ao Discord
+                        🤖 Adicionar ao Discord
                     </a>
 
                     <a
-                        class="btn secondary"
+                        class="button secondary"
                         href="#recursos"
                     >
-                        Ver recursos
+                        Explorar recursos
                     </a>
+
+                </div>
+
+                <div class="hero-mini">
+
+                    <div>
+                        <strong>🧠 IA</strong>
+                        <span>3 personalidades</span>
+                    </div>
+
+                    <div>
+                        <strong>🎌 Anime</strong>
+                        <span>Ferramentas</span>
+                    </div>
+
+                    <div>
+                        <strong>🍎 Blox Fruits</strong>
+                        <span>Sistemas</span>
+                    </div>
+
                 </div>
 
             </div>
 
-            <div class="hero-image">
+            <div class="hero-image-wrap">
+
+                <div class="hero-glow"></div>
 
                 <img
+                    class="hero-image"
                     src="https://cdn.pfps.gg/banners/7781-makima.png"
                     alt="Makima"
                 >
@@ -72,117 +131,441 @@
 
         </section>
 
+
+        <!-- ============================= -->
+        <!-- RECURSOS -->
+        <!-- ============================= -->
+
         <section id="recursos" class="section">
 
-            <p class="tag">RECURSOS</p>
+            <div class="section-heading">
 
-            <h2>O que a Makima faz?</h2>
+                <span class="eyebrow">
+                    RECURSOS
+                </span>
+
+                <h2>
+                    Tudo em um só lugar.
+                </h2>
+
+                <p>
+                    A Makima reúne diferentes sistemas para deixar seu servidor
+                    mais divertido e completo.
+                </p>
+
+            </div>
+
 
             <div class="cards">
 
-                <div class="card">
-                    <span>🧠</span>
-                    <h3>Inteligência Artificial</h3>
-                    <p>
-                        Diferentes personalidades de IA para conversar.
-                    </p>
-                </div>
+                <article class="card">
 
-                <div class="card">
-                    <span>🎌</span>
-                    <h3>Anime</h3>
-                    <p>
-                        Sistemas e ferramentas relacionados a animes.
-                    </p>
-                </div>
+                    <div class="card-icon">
+                        🧠
+                    </div>
 
-                <div class="card">
-                    <span>🍎</span>
-                    <h3>Blox Fruits</h3>
-                    <p>
-                        Stock, frutas, rankings, calculadoras e trades.
-                    </p>
-                </div>
+                    <h3>
+                        Inteligência Artificial
+                    </h3>
 
-                <div class="card">
-                    <span>⚙️</span>
-                    <h3>System</h3>
                     <p>
-                        Ferramentas para informações e gerenciamento.
+                        Converse com diferentes personalidades usando Gemini.
                     </p>
-                </div>
+
+                </article>
+
+
+                <article class="card">
+
+                    <div class="card-icon">
+                        🎌
+                    </div>
+
+                    <h3>
+                        Anime
+                    </h3>
+
+                    <p>
+                        Recursos relacionados a anime e sistemas interativos.
+                    </p>
+
+                </article>
+
+
+                <article class="card">
+
+                    <div class="card-icon">
+                        🍎
+                    </div>
+
+                    <h3>
+                        Blox Fruits
+                    </h3>
+
+                    <p>
+                        Stock, frutas, rankings, calculadoras e avaliação de trades.
+                    </p>
+
+                </article>
+
+
+                <article class="card">
+
+                    <div class="card-icon">
+                        ⚙️
+                    </div>
+
+                    <h3>
+                        System
+                    </h3>
+
+                    <p>
+                        Ping, uptime, informações e ferramentas para servidores.
+                    </p>
+
+                </article>
 
             </div>
 
         </section>
+
+
+        <!-- ============================= -->
+        <!-- IA -->
+        <!-- ============================= -->
 
         <section id="ia" class="section dark-section">
 
-            <p class="tag">INTELIGÊNCIA ARTIFICIAL</p>
+            <div class="section-heading">
 
-            <h2>Escolha sua personalidade.</h2>
+                <span class="eyebrow">
+                    INTELIGÊNCIA ARTIFICIAL
+                </span>
 
-            <div class="cards">
+                <h2>
+                    Escolha quem vai conversar com você.
+                </h2>
 
-                <div class="card">
-                    <span>🖤</span>
-                    <h3>IA Sombria</h3>
+                <p>
+                    Três personalidades diferentes usando o mesmo sistema de IA.
+                </p>
+
+            </div>
+
+
+            <div class="ai-grid">
+
+                <article class="ai-card dark-ai">
+
+                    <div class="ai-icon">
+                        🖤
+                    </div>
+
+                    <span class="ai-tag">
+                        IA 01
+                    </span>
+
+                    <h3>
+                        IA Sombria
+                    </h3>
+
                     <p>
-                        Fria, calculista e misteriosa.
+                        Fria, calculista, elegante e misteriosa.
                     </p>
-                </div>
 
-                <div class="card">
-                    <span>🩷</span>
-                    <h3>IA Fofa</h3>
-                    <p>
-                        Carinhosa, divertida e adorável.
-                    </p>
-                </div>
+                </article>
 
-                <div class="card">
-                    <span>😏</span>
-                    <h3>IA Provocante</h3>
+
+                <article class="ai-card cute-ai">
+
+                    <div class="ai-icon">
+                        🩷
+                    </div>
+
+                    <span class="ai-tag">
+                        IA 02
+                    </span>
+
+                    <h3>
+                        IA Fofa
+                    </h3>
+
                     <p>
-                        Atrevida, charmosa e flertadora.
+                        Carinhosa, divertida e cheia de energia.
                     </p>
-                </div>
+
+                </article>
+
+
+                <article class="ai-card teasing-ai">
+
+                    <div class="ai-icon">
+                        😏
+                    </div>
+
+                    <span class="ai-tag">
+                        IA 03
+                    </span>
+
+                    <h3>
+                        IA Provocante
+                    </h3>
+
+                    <p>
+                        Atrevida, charmosa e brincalhona.
+                    </p>
+
+                </article>
 
             </div>
 
         </section>
 
+
+        <!-- ============================= -->
+        <!-- BLOX -->
+        <!-- ============================= -->
+
         <section id="blox" class="section">
 
-            <p class="tag">BLOX FRUITS</p>
+            <div class="section-heading">
 
-            <h2>Ferramentas para Blox Fruits.</h2>
+                <span class="eyebrow">
+                    BLOX FRUITS
+                </span>
+
+                <h2>
+                    Feito para quem joga.
+                </h2>
+
+                <p>
+                    Ferramentas rápidas para facilitar sua experiência no Blox Fruits.
+                </p>
+
+            </div>
+
 
             <div class="cards">
 
-                <div class="card">
-                    🍎
-                    <h3>Stock</h3>
-                    <p>
-                        Consulte o stock atual.
-                    </p>
-                </div>
+                <article class="card">
 
-                <div class="card">
-                    💱
-                    <h3>Avaliador de Trade</h3>
-                    <p>
-                        Compare os valores das ofertas.
-                    </p>
-                </div>
+                    <div class="card-icon">
+                        🍎
+                    </div>
 
-                <div class="card">
-                    🏆
-                    <h3>Rankings</h3>
+                    <h3>
+                        Stock
+                    </h3>
+
+                    <p>
+                        Consulte o stock de frutas diretamente pelo Discord.
+                    </p>
+
+                </article>
+
+
+                <article class="card">
+
+                    <div class="card-icon">
+                        📚
+                    </div>
+
+                    <h3>
+                        Informações
+                    </h3>
+
+                    <p>
+                        Veja informações das frutas disponíveis.
+                    </p>
+
+                </article>
+
+
+                <article class="card">
+
+                    <div class="card-icon">
+                        🏆
+                    </div>
+
+                    <h3>
+                        Rankings
+                    </h3>
+
                     <p>
                         Rankings de frutas, espadas e acessórios.
                     </p>
-                </div>
+
+                </article>
+
+
+                <article class="card">
+
+                    <div class="card-icon">
+                        💱
+                    </div>
+
+                    <h3>
+                        Trade
+                    </h3>
+
+                    <p>
+                        Compare ofertas usando valores em M.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ============================= -->
+        <!-- CTA -->
+        <!-- ============================= -->
+
+        <section class="cta-section">
+
+            <div class="cta-box">
+
+                <span class="eyebrow">
+                    ENTRE PARA O SERVIDOR
+                </span>
+
+                <h2>
+                    Pronto para conhecer a Makima?
+                </h2>
+
+                <p>
+                    Adicione o bot ao seu servidor e explore os sistemas.
+                </p>
+
+                <a
+                    class="button primary"
+                    href="https://discord.com/oauth2/authorize?client_id=1551296598133309592&scope=bot%20applications.commands"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    🤖 Adicionar Makima
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ============================= -->
+        <!-- CONTATO -->
+        <!-- ============================= -->
+
+        <section id="contato" class="section contact-section">
+
+            <div class="section-heading">
+
+                <span class="eyebrow">
+                    CONTATO
+                </span>
+
+                <h2>
+                    Fale comigo.
+                </h2>
+
+                <p>
+                    Entre em contato pelas minhas redes.
+                </p>
+
+            </div>
+
+
+            <div class="contact-grid">
+
+                <a
+                    class="contact-card"
+                    href="https://instagram.com/arthur_100midia"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+
+                    <div class="contact-icon">
+                        📸
+                    </div>
+
+                    <div>
+
+                        <span>
+                            INSTAGRAM
+                        </span>
+
+                        <strong>
+                            @arthur_100midia
+                        </strong>
+
+                    </div>
+
+                    <div class="contact-arrow">
+                        ↗
+                    </div>
+
+                </a>
+
+
+                <a
+                    class="contact-card"
+                    href="https://wa.me/5588996603707"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+
+                    <div class="contact-icon">
+                        💬
+                    </div>
+
+                    <div>
+
+                        <span>
+                            WHATSAPP
+                        </span>
+
+                        <strong>
+                            +55 88 99660-3707
+                        </strong>
+
+                    </div>
+
+                    <div class="contact-arrow">
+                        ↗
+                    </div>
+
+                </a>
+
+
+                <a
+                    class="contact-card"
+                    href="https://discord.com/oauth2/authorize?client_id=1551296598133309592&scope=bot%20applications.commands"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+
+                    <div class="contact-icon">
+                        🤖
+                    </div>
+
+                    <div>
+
+                        <span>
+                            DISCORD
+                        </span>
+
+                        <strong>
+                            Adicionar o Bot
+                        </strong>
+
+                    </div>
+
+                    <div class="contact-arrow">
+                        ↗
+                    </div>
+
+                </a>
 
             </div>
 
@@ -190,17 +573,59 @@
 
     </main>
 
-    <footer>
 
-        <p>
-            🩸 Makima Bot
-        </p>
+    <!-- ============================= -->
+    <!-- FOOTER -->
+    <!-- ============================= -->
 
-        <p>
-            Feito para Discord
-        </p>
+    <footer class="footer">
+
+        <div>
+
+            <div class="logo">
+                🩸 MAKIMA
+            </div>
+
+            <p>
+                Um bot para Discord feito com paixão.
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="#inicio">
+                Início
+            </a>
+
+            <a href="#recursos">
+                Recursos
+            </a>
+
+            <a href="#ia">
+                IA
+            </a>
+
+            <a href="#blox">
+                Blox Fruits
+            </a>
+
+            <a href="#contato">
+                Contato
+            </a>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            © <span id="year"></span> Makima Bot
+
+        </div>
 
     </footer>
+
 
     <script src="script.js"></script>
 
